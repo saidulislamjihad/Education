@@ -326,7 +326,9 @@ img{
 .home-silder-inner .silder-content {
     position: absolute;
     width: 50%;
-    transform: translate(15%, 95%);
+    top: 50%;
+    margin-left: 100px;
+    transform: translateY(-50%);
 }
 .home-silder-inner .image img {
     width: 100%;
